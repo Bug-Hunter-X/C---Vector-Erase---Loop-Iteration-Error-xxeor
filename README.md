@@ -1,0 +1,2 @@
+# C++ Vector Erase() Loop Iteration Error
+This repository demonstrates a common error when using `std::vector::erase()` within a loop in C++.  The bug arises from iterating over a vector using indices while simultaneously removing elements from it.  Removing an element shifts subsequent elements, invalidating the index used for iteration. The solution demonstrates the proper way to remove elements from a vector while iterating safely.
